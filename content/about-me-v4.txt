@@ -1,0 +1,109 @@
+# Extracting text content from the fourth provided HTML and CSS code
+
+text_content_4 = """
+Ilia Degtiarev – Amazon PPC Expert
+
+Expert Amazon PPC Management & Financial Analytics | Ilia Degtiarev
+
+Ilia Degtiarev
+Services | About | Skills | Experience | Projects | Testimonials | Contact
+
+Scale Your Amazon Brand Through Data-Driven PPC
+Maximizing ROI with strategic ad optimization, financial analytics, and automation workflows.
+
+25% Avg ACoS Reduction
+30% Revenue Growth
+100+ Campaigns Optimized
+
+Work With Me
+
+Services
+PPC Optimization - Launch, manage, and scale Amazon PPC campaigns with advanced dayparting, bid adjustments, and keyword insights.
+Financial Analytics - Improve profitability with cash flow forecasting, real-time profit tracking, and data-driven decision-making.
+Workflow Automation - Streamline tasks by integrating Google Apps Script and custom JS solutions for daily PPC, inventory, and reporting tasks.
+
+About Me
+Hi, I'm Ilia Degtiarev—a Vancouver-based Amazon Advertising Specialist with a passion for simplifying complex data and processes. I blend PPC expertise, financial analytics, and coding know-how to help brands scale efficiently. Whether you're seeking lower ACOS, higher ROAS, or automated reporting, I'm your go-to partner for sustainable growth.
+
+Skills & Expertise
+Technical Skills
+- Amazon PPC (SP, SB, SD)
+- Keyword Research & Bid Optimization
+- Dayparting & Scheduling Strategies
+- Pacvue, Helium 10, Sellerboard
+- Google Sheets Automation (Apps Script)
+- JavaScript, HTML, CSS (Basic)
+
+Professional & Soft Skills
+- Strategic Planning & Critical Thinking
+- Team Leadership & Mentoring
+- Financial Forecasting & Cash Flow
+- Workflow Optimization
+- Data-Driven Decision Making
+- Client & Stakeholder Communication
+
+Work Experience
+PPC Contractor | Amazon Ads Specialist (Freelance) (2023 - Present)
+- Rebuilt campaigns with margin-based bid optimization. Result: Achieved 25% ACOS reduction.
+- Automated PPC reports via Google Apps Script. Result: Saved 4+ hours/week & improved accuracy.
+- Introduced competitor targeting & negative keyword strategies. Result: Boosted CTR by 15%.
+
+Co-Founder & PPC Manager | Red Medical Supplies Ltd. (2019 - Present | Vancouver, BC)
+- Managed $XX,XXX monthly ad spend across multiple SKUs. Result: Maintained profitability & brand expansion.
+- Implemented Sellerboard for real-time P&L tracking. Result: Improved cash flow & identified cost savings.
+- Deployed dayparting strategies. Result: Increased conversions by 12%, reduced wasted ad spend.
+
+Education & Certifications
+- Bachelor’s Degree in Economics
+- Amazon Advertising Certification
+- Google Ads Certification
+
+Projects & Case Studies
+PPC Automation & Reporting System
+- Built a Google Sheets dashboard with Apps Script for daily KPI tracking.
+- Reduced manual reporting by 50%.
+
+Dayparting Optimization Strategy
+- Analyzed ad placement & conversion windows to refine bidding schedules.
+- Lowered CPA by 20% during peak times.
+
+JavaScript Automation & Web Tools
+- Created custom scripts to merge Helium 10 data into advanced dashboards.
+- Developed prototypes for real-time PPC analysis.
+
+ACoS Reduction Over 6 Months
+
+Testimonials
+"Ilia's PPC strategies helped us scale while cutting costs. We saw a 30% decrease in ACOS within 2 months!"
+– Alex T., E-commerce Manager
+
+"His automated reporting solution saved hours of tedious work. Our team is more focused—and profitable—than ever."
+– Bailey R., Brand Owner
+
+Contact & Collaborate
+Let's Connect
+Location: Vancouver, BC
+Email: your-email@example.com
+LinkedIn: linkedin.com/in/your-profile
+Phone: +1 (XXX) XXX-XXXX
+Download Resume (PDF)
+
+Send a Message
+Name:
+Email:
+Message:
+
+Send
+
+© 2025 Ilia Degtiarev. All rights reserved.
+Built with ♥ using HTML, CSS, and JavaScript.
+"""
+
+# Saving the extracted text to a file
+file_path_4 = "/mnt/data/extracted_text_4.txt"
+
+with open(file_path_4, "w", encoding="utf-8") as file:
+    file.write(text_content_4)
+
+# Provide the file to the user
+file_path_4
