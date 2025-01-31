@@ -1,15 +1,17 @@
-// Theme Loader
-(function loadTheme() {
-    const savedTheme = localStorage.getItem('theme');
-    document.documentElement.setAttribute('data-theme', savedTheme || 'dark');
-})();
-
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+document.addEventListener('DOMContentLoaded', () => {
+  // Smooth scrolling for header navigation links
+  const navLinks = document.querySelectorAll('header nav a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) {
+        window.scrollTo({
+          top: targetSection.offsetTop - 70, // Adjust for fixed header height
+          behavior: 'smooth'
         });
+      }
     });
+  });
 });
