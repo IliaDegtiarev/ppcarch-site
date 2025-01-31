@@ -1,0 +1,70 @@
+# Extracting text content from the third provided HTML and CSS code
+
+text_content_3 = """
+Ilia Degtiarev | Amazon PPC Architect
+
+Data-Driven Amazon Advertising Expert | Turning Ad Spend into Profit Machines
+
+Ilia Degtiarev
+About | Services | Portfolio | Testimonials | Contact
+
+Amazon PPC Architect
+Data-Driven Amazon Advertising Expert, Turning Ad Spend into Profit Machines
+
+View My Services | Book a Consultation
+
+$12M+ Managed Ad Spend
+42% Average ROAS Boost
+35% Avg. ACOS Reduction
+
+About Me
+I’m Ilia Degtiarev, an Amazon PPC specialist with a passion for data-driven strategies that deliver real revenue growth. With years of experience managing multimillion-dollar ad budgets, I take a systematic approach to help brands outperform their competition and reach new market heights.
+
+Whether you’re looking for strategic consulting or fully managed PPC campaigns, I’m here to transform your ad spend into an engine for profit.
+
+Services
+Enterprise PPC Management - $2999/month — 30-Day Profit Guarantee
+Mid-Market PPC Strategy - $1499/month — Aggressive Growth + Optimized ACOS
+Audit & Consulting - Starting at $799 — Deep Analysis & Strategic Roadmap
+
+Portfolio & Case Studies
+Case Study: Launching a Beauty Brand
+Scaled from $0 to $500k in 12 months by leveraging aggressive targeting, brand analytics, and in-depth competitor research.
+
+Case Study: Reducing ACOS by 40%
+Restructured campaigns, optimized keywords, and fine-tuned bids to achieve a 40% ACOS reduction within 3 months.
+
+Case Study: International Expansion
+Helped a US-based brand successfully launch in Canada and the UK, increasing total revenue by 60% in the first quarter.
+
+2019: Launched E-commerce Venture
+Scaled to $1.2M+ revenue in the first 18 months
+
+Testimonials
+"Ilia's strategies reduced our ACOS by 35% while doubling conversions!"
+- Client A
+
+"We saw a 50% increase in overall revenue after his PPC overhaul. Highly recommended!"
+- Client B
+
+Contact Me
+Name:
+Email:
+Message:
+
+Send Message
+
+© 2025 Ilia Degtiarev. All rights reserved.
+
+Your Plan (0)
+Secure Checkout →
+"""
+
+# Saving the extracted text to a file
+file_path_3 = "/mnt/data/extracted_text_3.txt"
+
+with open(file_path_3, "w", encoding="utf-8") as file:
+    file.write(text_content_3)
+
+# Provide the file to the user
+file_path_3
