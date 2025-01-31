@@ -1,1 +1,55 @@
+# Extracting text content from the provided HTML and CSS code
+
+text_content = """
+Ilia Degtiarev | Amazon PPC Built for Growth, Not Guesswork
+
+Amazon PPC Architect—precision bid control and conversion-focused strategies that power your brand’s growth.
+
+Ilia Degtiarev
+About | Achievements | Competencies | FAQ | Testimonials | Contact
+
+Amazon PPC Built for Growth, Not Guesswork
+No more random bid increases or wasted spend. I build high-performance 
+Amazon campaigns using structured workflows, precision bid control, 
+and conversion-focused strategies tailored to your brand’s growth.
+
+Learn More | Book a Consultation
+
+The Thrust Behind Your Growth
+“Your business is the rocket. I provide the thrust.”  
+I specialize in helping Amazon sellers optimize ad spend, increase ROI, 
+and tackle complex PPC challenges. My approach is data-driven and 
+results-focused, ensuring each strategy is tailored to your brand’s unique needs.
+
+Frequently Asked Questions
+How can you help me reduce my ACoS without sacrificing sales?
+I optimize both ACoS and TACoS, ensuring you don’t lose 
+impressions for critical keywords. By analyzing product 
+lifecycle stages and shifting spend to high-margin products, 
+I maintain growth while reducing wasted ad spend.
+
+How do you improve ROAS?
+I prioritize high-performing campaigns (top 20%) with 
+strategic allocation. This approach focuses on efficiency, 
+while also testing new placements and ad formats for 
+incremental gains.
+
+Contact Me
+Name:
+Email:
+Message:
+
+Send Message
+
+© 2025 Ilia Degtiarev. All rights reserved.
+"""
+
+# Saving the extracted text to a file
+file_path = "/mnt/data/extracted_text.txt"
+
+with open(file_path, "w", encoding="utf-8") as file:
+    file.write(text_content)
+
+# Provide the file to the user
+file_path
 
